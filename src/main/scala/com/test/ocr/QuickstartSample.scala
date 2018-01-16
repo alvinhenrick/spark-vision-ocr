@@ -24,7 +24,7 @@ object QuickstartSample {
     val vision = ImageAnnotatorClient.create
     // The path to the image file to annotate
     val fileName =
-      "/Users/shona/IdeaProjects/spark-vision-ocr/resources/wakeupcat.jpg"
+      "/Users/ahenrick/IdeaProjects/spark-vision-ocr/resources/wakeupcat.jpg"
     // Reads the image file into memory
     val path = Paths.get(fileName)
     val data = Files.readAllBytes(path)
